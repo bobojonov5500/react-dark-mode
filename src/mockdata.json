@@ -1,0 +1,25 @@
+{
+  "random": [
+    {
+      "id": 1,
+      "title": "Introduction to React",
+      "content": "React is a JavaScript library for building user interfaces...",
+      "author": "Alice Johnson",
+      "date": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with Redux",
+      "content": "Redux is a predictable state container for JavaScript apps...",
+      "author": "Bob Smith",
+      "date": "2024-02-15"
+    },
+    {
+      "id": 3,
+      "title": "Advanced TypeScript Tips",
+      "content": "TypeScript is a strongly typed programming language that builds on JavaScript...",
+      "author": "Charlie Davis",
+      "date": "2024-03-10"
+    }
+  ]
+}
