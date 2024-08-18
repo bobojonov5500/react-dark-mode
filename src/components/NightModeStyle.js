@@ -4,9 +4,6 @@ import { EditAlt } from "@styled-icons/boxicons-solid/EditAlt";
 import { Moon } from "@styled-icons/boxicons-regular/Moon";
 import { UserCheck } from "@styled-icons/fa-solid/UserCheck";
 import { UserPlus } from "@styled-icons/fa-solid/UserPlus";
-import { CardImage } from "@styled-icons/bootstrap/CardImage";
-import { Settings } from "@styled-icons/feather/Settings";
-import { Sms } from "@styled-icons/material-outlined/Sms";
 import { Grid1x2 } from "@styled-icons/bootstrap/Grid1x2";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 

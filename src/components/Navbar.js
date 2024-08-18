@@ -45,8 +45,26 @@ function Navbar() {
         >
           Night Mode{" "}
         </NavLink>
+        <NavLink
+          style={{
+            textDecoration: "none",
+            color: location.pathname === "/items" ? "green" : "",
+          }}
+          to={"/items"}
+        >
+          Crud
+        </NavLink>
         <NavLink style={{ textDecoration: "none" }} to={"/logout"}>
           Log Out{" "}
+        </NavLink>
+        <NavLink
+          to={"/list"}
+          style={{
+            textDecoration: "none",
+            color: location.pathname === "/list" ? "green" : "",
+          }}
+        >
+          List
         </NavLink>
       </Ul>
     </Container>

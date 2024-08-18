@@ -3,7 +3,8 @@ import { Listcontext } from "../components/context";
 import { Container, DeleteBtn, EditBtn, Table } from "./ListStyle";
 
 function List() {
-  const { Data, setData } = useContext(Listcontext);
+  const { Data, setData,Error } = useContext(Listcontext);
+  console.log(Error)
   const OnDelete = (id) => {
     const FilteredData = Data.filter((item) => {
       return item.id !== id;
